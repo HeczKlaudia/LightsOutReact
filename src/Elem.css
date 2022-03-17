@@ -1,0 +1,33 @@
+body {
+  width: 170px;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.jatekter {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px;
+  grid-gap: 10px;
+}
+
+.elem {
+  border: 1px solid gainsboro;
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+}
+
+.szinFel {
+  background: linear-gradient(rgb(0, 255, 255), rgb(120, 120, 163));
+}
+
+.szinLe {
+  background: linear-gradient(rgb(15, 71, 71), rgb(121, 121, 165));
+}
+
+.ujJatek button {
+  margin-top: 20px;
+}
